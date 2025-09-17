@@ -3,7 +3,7 @@ WANDERLUST TRAVELS
 A responsive multipage travel website built with HTML5, CSS3, and JavaScript.
 The site showcases beautiful destinations, provides information about the agency, and allows users to make inquiries through a contact form.
 
-Deployed live here 👉 [Add your live URL once deployed]
+Deployed live here 👉 [https://68cab5f81a03bf52583b427a--candid-melomakarona-b2d0b4.netlify.app/]
 
 PROJECT STRUCTURE
 
@@ -79,7 +79,7 @@ Go to Settings → Pages
 
 Select branch main (or master) and /root folder
 
-Save → your site will be live at https://username.github.io/repository-name
+Save → your site will be live at https:github.com/glorymukami/wk-8-web-assign
 
 📌 Deliverables
 
