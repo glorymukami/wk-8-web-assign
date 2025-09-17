@@ -3,43 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Destinations | Wanderlust Travels</title>
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/script.js" defer></script>
+  <title>Destinations - Wanderlust Travel</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <h1 class="logo">Wanderlust Travels</h1>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="destinations.html" class="active">Destinations</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h1 class="logo">Wanderlust Travel</h1>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="destinations.html" class="active">Destinations</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Destinations Hero Section -->
+  <header class="hero small-hero">
+    <h2>Explore Our Top Destinations</h2>
+    <p>Beautiful places around the world waiting for you!</p>
   </header>
 
-  <section class="destinations">
-    <h2>Popular Destinations</h2>
-    <div class="dest-grid">
-      <div class="dest-item">
-        <img src="images/slide1.jpeg" alt="Beach">
-        <h3>Maldives</h3>
-      </div>
-      <div class="dest-item">
-        <img src="images/slide2.jpeg" alt="Mountains">
-        <h3>Swiss Alps</h3>
-      </div>
-      <div class="dest-item">
-        <img src="images/slide4.jpeg" alt="City">
-        <h3>New York City</h3>
-      </div>
+  <!-- Slideshow -->
+  <section class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="images/slide1.jpeg" style="width:100%">
+      <div class="text">Paris, France</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/slide2.jpeg" style="width:100%">
+      <div class="text">Tokyo, Japan</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/slide4.jpeg" style="width:100%">
+      <div class="text">New York, USA</div>
     </div>
   </section>
 
+  <!-- Dots -->
+  <div class="dots" style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div>
+
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Wanderlust Travels. All rights reserved.</p>
+    <p>&copy; 2025 Wanderlust Travel. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
