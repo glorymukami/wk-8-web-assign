@@ -1,90 +1,92 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+WANDERLUST TRAVELS
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+A responsive multipage travel website built with HTML5, CSS3, and JavaScript.
+The site showcases beautiful destinations, provides information about the agency, and allows users to make inquiries through a contact form.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+Deployed live here 👉 [Add your live URL once deployed]
 
----
+PROJECT STRUCTURE
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+wanderlust-travels/
+│
+├── index.html          # Home page
+├── destinations.html   # Destinations page
+├── about.html          # About page
+├── contact.html        # Contact page
+│
+├── css/
+│   └── style.css       # Main stylesheet
+│
+├── js/
+│   └── script.js       # JavaScript for interactivity
+│
+└── images/             # Image assets
 
-Before you write any code, take time to plan:
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+Pages
 
-**Goal:** Show intentional structure and user journey across the site.
+Home (index.html)
 
----
+Hero section with welcoming message
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+Highlights of featured destinations
 
-Using your plan, begin building:
+Links to other sections
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+Destinations (destinations.html)
 
-Each page should:
+Grid/gallery of popular travel destinations with images and descriptions
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+About (about.html)
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+Information about Wanderlust Travels
 
----
+Mission, promise, and services overview
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+Contact (contact.html)
 
-Before deployment, refactor your project to follow production-friendly practices:
+Inquiry/booking form (with JavaScript validation)
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+Contact details
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+🛠️ Features
 
----
+✅ Responsive Design – works on mobile, tablet, and desktop
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+✅ Consistent Navigation – header and footer across all pages
 
-Once your project is complete, choose a method to **host your site online**.
+✅ Interactive Elements – JavaScript form validation & interactivity
 
-You can use:
+✅ Semantic HTML5 – accessibility and clean structure
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+✅ Organized Codebase – separated folders for CSS, JS, and images
 
-Deploy your project and confirm that:
+🚀 Deployment
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
+The site can be deployed on:
 
-**Goal:** Publish your work online and make it accessible to the world.
+GitHub Pages – easy static hosting
 
----
+Netlify – one-click deployment + free SSL
 
-## Deliverables
+Vercel – fast global CDN
 
-1. A GitHub repository containing:
+Steps to deploy on GitHub Pages:
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+Push your project to a GitHub repository
 
----
+Go to Settings → Pages
 
-## Outcome
+Select branch main (or master) and /root folder
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+Save → your site will be live at https://username.github.io/repository-name
+
+📌 Deliverables
+
+✅ GitHub repository with complete code
+
+✅ README.md (this file)
+
+✅ Live deployed website link
+
+✨ Outcome: A professional, responsive, and fully deployed multipage travel website demonstrating mastery of HTML, CSS, and JavaScript.
