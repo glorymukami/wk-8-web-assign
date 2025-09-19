@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Wanderlust</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Wanderlust</h2>
+                <p>Travel Agency Dashboard</p>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li class="nav-item active"><a href="#"><i class="fas fa-home"></i> Dashboard</a></li>
+                    <li class="nav-item"><a href="#"><i class="fas fa-map-marker-alt"></i> Destinations</a></li>
+                    <li class="nav-item"><a href="#"><i class="fas fa-suitcase"></i> Tours & Packages</a></li>
+                    <li class="nav-item"><a href="#"><i class="fas fa-receipt"></i> Bookings</a></li>
+                    <li class="nav-item"><a href="#"><i class="fas fa-users"></i> Users</a></li>
+                    <li class="nav-item"><a href="#"><i class="fas fa-credit-card"></i> Payments</a></li>
+                    <li class="nav-item"><a href="#"><i class="fas fa-chart-bar"></i> Analytics</a></li>
+                    <li class="nav-item"><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="dashboard-header">
+                <div class="header-left">
+                    <h1>Dashboard</h1>
+                    <p>Welcome back, Admin!</p>
+                </div>
+                <div class="header-right">
+                    <div class="search-box">
+                        <input type="text" placeholder="Search...">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="user-profile">
+                        <img src="https://via.placeholder.com/40" alt="User">
+                        <span>Admin User</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Dashboard Stats -->
+            <section class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>1,254</h3>
+                        <p>Total Users</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-suitcase"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>563</h3>
+                        <p>Active Bookings</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>$24,589</h3>
+                        <p>Total Revenue</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>42</h3>
+                        <p>Destinations</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Recent Bookings -->
+            <section class="recent-bookings">
+                <h2>Recent Bookings</h2>
+                <div class="bookings-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Booking ID</th>
+                                <th>Customer</th>
+                                <th>Destination</th>
+                                <th>Date</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#BK001</td>
+                                <td>John Doe</td>
+                                <td>Bali, Indonesia</td>
+                                <td>15 Jun 2023</td>
+                                <td><span class="status confirmed">Confirmed</span></td>
+                                <td><button class="action-btn">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>#BK002</td>
+                                <td>Jane Smith</td>
+                                <td>Paris, France</td>
+                                <td>18 Jun 2023</td>
+                                <td><span class="status pending">Pending</span></td>
+                                <td><button class="action-btn">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>#BK003</td>
+                                <td>Mike Johnson</td>
+                                <td>Maasai Mara, Kenya</td>
+                                <td>20 Jun 2023</td>
+                                <td><span class="status confirmed">Confirmed</span></td>
+                                <td><button class="action-btn">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>#BK004</td>
+                                <td>Sarah Wilson</td>
+                                <td>Tokyo, Japan</td>
+                                <td>22 Jun 2023</td>
+                                <td><span class="status cancelled">Cancelled</span></td>
+                                <td><button class="action-btn">View</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Popular Destinations -->
+            <section class="popular-destinations">
+                <h2>Popular Destinations</h2>
+                <div class="destinations-chart">
+                    <!-- Chart would be implemented with a library like Chart.js -->
+                    <div class="chart-placeholder">
+                        <p>Destination Popularity Chart</p>
+                        <p>(Would be implemented with Chart.js)</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
