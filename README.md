@@ -1,92 +1,188 @@
-WANDERLUST TRAVELS
+Wanderlust Travel Website
+A comprehensive, responsive travel website built with HTML5, CSS3, and vanilla JavaScript featuring stunning animations and a complete admin dashboard.
 
-A responsive multipage travel website built with HTML5, CSS3, and JavaScript.
-The site showcases beautiful destinations, provides information about the agency, and allows users to make inquiries through a contact form.
+🌐 Live Demo
+View Live Website
+Replace with your actual deployed GitHub Pages URL
 
-Deployed live here 👉 [https://68cab5f81a03bf52583b427a--candid-melomakarona-b2d0b4.netlify.app/]
+🌟 Features
+Main Website
+Eye-catching Hero Section with video background and search functionality
 
-PROJECT STRUCTURE
+About Section with company information
 
-wanderlust-travels/
-│
-├── index.html          # Home page
-├── destinations.html   # Destinations page
-├── about.html          # About page
-├── contact.html        # Contact page
-│
+Destinations Page with category filtering (Beaches, Adventure, Culture, Wildlife)
+
+Interactive Itinerary Planner with step-by-step trip planning
+
+Travel Blog/Guides section with articles and tips
+
+Special Travel Deals with discounts and promotions
+
+Photo Gallery with filtering options
+
+Contact Page with form and newsletter subscription
+
+Fully Responsive Design that works on all devices
+
+Admin Dashboard
+Destinations Management - Add/edit/delete destinations
+
+Tours & Packages Management - Create and manage travel packages
+
+Bookings Management - View and manage customer bookings
+
+Users Management - Customer database and profiles
+
+Payments Tracking - Transaction monitoring
+
+Analytics Dashboard - Business insights and reports
+
+🛠️ Technologies Used
+HTML5 - Semantic markup and modern structure
+
+CSS3 - Flexbox, Grid, animations, and responsive design
+
+Vanilla JavaScript - No frameworks or libraries
+
+Font Awesome - Icons for enhanced UI
+
+Google Fonts - Typography
+
+📁 Project Structure
+text
+wanderlust-travel-website/
+├── index.html
 ├── css/
-│   └── style.css       # Main stylesheet
-│
+│   └── style.css
 ├── js/
-│   └── script.js       # JavaScript for interactivity
-│
-└── images/             # Image assets
+│   └── script.js
+├── assets/
+│   ├── images/
+│   ├── videos/
+│   └── icons/
+├── README.md
+└── LICENSE
+🚀 Getting Started
+Prerequisites
+A modern web browser (Chrome, Firefox, Safari, Edge)
 
+A code editor (VS Code, Sublime Text, etc.)
 
-Pages
+Installation
+Clone or download the project files
 
-Home (index.html)
+Open index.html in your web browser
 
-Hero section with welcoming message
+Alternatively, set up a local server for best performance
 
-Highlights of featured destinations
+Deployment to GitHub Pages
+Create a new repository on GitHub named wanderlust-travel-website
 
-Links to other sections
+Upload all project files to the repository
 
-Destinations (destinations.html)
+Go to Repository Settings > Pages
 
-Grid/gallery of popular travel destinations with images and descriptions
+Select the main branch as the source
 
-About (about.html)
+Your site will be published at https://your-username.github.io/wanderlust-travel-website/
 
-Information about Wanderlust Travels
+🎨 Customization
+Changing Colors
+Edit the CSS variables in the :root selector:
 
-Mission, promise, and services overview
+css
+:root {
+    --primary: #3498db;     /* Main brand color */
+    --secondary: #2ecc71;   /* Secondary color */
+    --accent: #e74c3c;      /* Accent color for highlights */
+    /* ... other variables */
+}
+Adding New Destinations
+Edit the HTML in the Destinations section:
 
-Contact (contact.html)
+html
+<div class="destination-card">
+    <div class="card-image">
+        <img src="path/to/your/image.jpg" alt="Destination Name">
+    </div>
+    <div class="card-content">
+        <h3>Destination Name</h3>
+        <p>Description of the destination.</p>
+        <div class="card-meta">
+            <span class="price">$999</span>
+            <span class="rating">★★★★☆</span>
+        </div>
+    </div>
+</div>
+Modifying the Dashboard
+The admin dashboard can be customized by editing the Dashboard section in the HTML and corresponding JavaScript functionality.
 
-Inquiry/booking form (with JavaScript validation)
+📱 Responsive Design
+The website is fully responsive and optimized for:
 
-Contact details
+Desktop computers (1200px+)
 
-🛠️ Features
+Laptops (992px - 1199px)
 
-✅ Responsive Design – works on mobile, tablet, and desktop
+Tablets (768px - 991px)
 
-✅ Consistent Navigation – header and footer across all pages
+Mobile devices (767px and below)
 
-✅ Interactive Elements – JavaScript form validation & interactivity
+🌐 Browser Compatibility
+Chrome (recommended)
 
-✅ Semantic HTML5 – accessibility and clean structure
+Firefox
 
-✅ Organized Codebase – separated folders for CSS, JS, and images
+Safari
 
-🚀 Deployment
+Edge
 
-The site can be deployed on:
+Opera
 
-GitHub Pages – easy static hosting
+📞 Support
+For support or questions about this template:
 
-Netlify – one-click deployment + free SSL
+Create an issue on the GitHub repository
 
-Vercel – fast global CDN
+Contact the development team at support@wanderlust.com
 
-Steps to deploy on GitHub Pages:
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Push your project to a GitHub repository
+🎯 Future Enhancements
+Integration with booking APIs
 
-Go to Settings → Pages
+User authentication system
 
-Select branch main (or master) and /root folder
+Payment processing integration
 
-Save → your site will be live at https:github.com/glorymukami/wk-8-web-assign
+Multi-language support
 
-📌 Deliverables
+Advanced search filters
 
-✅ GitHub repository with complete code
+Real-time chat support
 
-✅ README.md (this file)
+🙏 Acknowledgments
+Unsplash for providing beautiful stock photos
 
-✅ Live deployed website link
+Font Awesome for the icon library
 
-✨ Outcome: A professional, responsive, and fully deployed multipage travel website demonstrating mastery of HTML, CSS, and JavaScript.
+Google Fonts for typography
+
+Happy travels! ✈️🌎
+
+Assignment Notes:
+This project demonstrates proficiency in:
+
+Semantic HTML5 structure
+
+Advanced CSS3 features (Flexbox, Grid, Animations)
+
+Vanilla JavaScript for interactivity
+
+Responsive web design principles
+
+UI/UX design considerations
+
+Project organization and documentation
