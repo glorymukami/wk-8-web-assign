@@ -3,7 +3,7 @@ A comprehensive, responsive travel website built with HTML5, CSS3, and vanilla J
 
 🌐 Live Demo
 View Live Website
-Replace with your actual deployed GitHub Pages URL
+ https://glorymukami.github.io/wk-8-web-assign/
 
 🌟 Features
 Main Website
@@ -85,7 +85,7 @@ Go to Repository Settings > Pages
 
 Select the main branch as the source
 
-Your site will be published at https://your-username.github.io/wanderlust-travel-website/
+Your site will be published at  https://glorymukami.github.io/wk-8-web-assign/
 
 🎨 Customization
 Changing Colors
